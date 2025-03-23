@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+.album-section, .album {
+    background: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.album-list, .music-list {
+    list-style: none;
+    padding: 0;
+}
+.album-list li, .music-list li {
+    margin: 10px 0;
+    padding: 10px;
+    background: #eee;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.album-list li a, .play-button {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+.album-list li a:hover, .play-button:hover {
+    text-decoration: underline;
+}
